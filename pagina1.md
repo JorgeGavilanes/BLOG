@@ -1,8 +1,10 @@
+---
 Title:    Prueba para blog  
 Author:   Jorge Gavilanes  
 Date:     14 de febrero del 2021  
 Comment:  Este comentario aparecerá en el metadata  
 CSS:      https://guppydigital.com/css/estilos.css
+---
 
 # TITULO 1
 ## TITULO 2 {#id}
