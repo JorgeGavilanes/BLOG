@@ -37,7 +37,6 @@ MMD ofrece muchas más posibilidades que MD.
 *[MD]: Abreviación para Markdown
 
 ---
-| Tabla |
 | Primera columna | Segunda columna | Tercera columna |
 | :-- | :--: | --: |
 | Contenido 1-1 | Contenido 1-2 | Contenido 1-3 |
