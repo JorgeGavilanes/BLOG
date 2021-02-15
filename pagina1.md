@@ -174,7 +174,7 @@ Para agregar ciertos símbolos y que markdown no los interprete usamos un \antes
 [Compartir en FACEBOOK][facebook]  
 [Compartir en TWITTER][twitter]  
 [Compartir en WHATSAPP][whatsapp]  
-[Compartir en LINKEDIN][linkedin]
+[Compartir en LINKEDIN][linkedin]{:target="_blank"}
 
 [facebook]: https://www.facebook.com/sharer/sharer.php?u=https://getcode.ml
 
