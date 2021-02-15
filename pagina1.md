@@ -1,4 +1,3 @@
----
 Title:       Prueba para blog  
 Subtitle:    Página 1  
 Author:      Jorge Gavilanes  
@@ -7,8 +6,8 @@ Comment:     Este comentario aparecerá en el metadata
 CSS:         https://guppydigital.com/css/estilos.css  
 Project:     Blog de getCode_  
 Affiliation: GuppyDigital  
-Web:         https://guppydigital.com  
----
+Web:         https://guppydigital.com
+
 
 # TITULO 1
 ## TITULO 2 {#id}
