@@ -1,9 +1,13 @@
 ---
-Title:    Prueba para blog  
-Author:   Jorge Gavilanes  
-Date:     14 de febrero del 2021  
-Comment:  Este comentario aparecerá en el metadata  
-CSS:      https://guppydigital.com/css/estilos.css
+Title:       Prueba para blog  
+Subtitle:    Página 1  
+Author:      Jorge Gavilanes  
+Date:        14 de febrero del 2021  
+Comment:     Este comentario aparecerá en el metadata  
+CSS:         https://guppydigital.com/css/estilos.css  
+Project:     Blog de getCode_  
+Affiliation: GuppyDigital  
+Web:         https://guppydigital.com  
 ---
 
 # TITULO 1
