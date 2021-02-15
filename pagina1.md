@@ -1,3 +1,4 @@
+---
 Title:       Prueba para blog  
 Subtitle:    Página 1  
 Author:      Jorge Gavilanes  
@@ -6,8 +7,8 @@ Comment:     Este comentario aparecerá en el metadata
 CSS:         https://guppydigital.com/css/estilos.css  
 Project:     Blog de getCode_  
 Affiliation: GuppyDigital  
-Web:         https://guppydigital.com
-
+Web:         https://guppydigital.com  
+---
 
 # TITULO 1
 ## TITULO 2 {#id}
@@ -15,6 +16,33 @@ Web:         https://guppydigital.com
 #### TITULO 4
 ##### TITULO 5
 ###### TITULO 6
+
+Address: para incluir la dirección del autor (recuerda usar el truco: espacio espacio intro, si quieres añadir varias líneas)  
+Author: para incluir el nombre del autor.  
+Affiliation: para incluir las organizaciones con las que el documento puede estar afiliado (compañías, universidades…)  
+Comment: campo para añadir comentarios acerca de la obra.  
+Copyright: incluye un copyright o tipo de licencia en tu documento.  
+Date: fecha de creación del documento.  
+Email: para incluir el email del autor.  
+Keywords: aquí podrás añadir las palabras clave que definen tu documento, separadas por comas.  
+Subtitle: para especificar el subtítulo oficial del documento.  
+Title: para especificar el título oficial del documento.  
+Web: para incluir la URL del autor.  
+
+***
+
+MMD ofrece muchas más posibilidades que MD.
+
+*[MMD]: Abreviación para Multimarkdown  
+*[MD]: Abreviación para Markdown
+
+---
+| Tabla |
+| Primera columna | Segunda columna | Tercera columna |
+| :-- | :--: | --: |
+| Contenido 1-1 | Contenido 1-2 | Contenido 1-3 |
+| Contenido 2-1 | Contenido 2-2 | Contenido 2-3 |
+| Contenido 3-1 | Contenido 3-2 | Contenido 3-3 |
 
 ---
 Para saltos de línea dos veces intro
@@ -88,7 +116,7 @@ FORMA DE AGREGAR CÓDIGO
 
     El texto preformateado se lo agrega escribiendo cuando líneas anteriores, en html sería la etiqueta <pre>.
 
-[ID](#id)
+[TITULO 2](#id)
 
 ## Salto de línea
 ***
@@ -200,4 +228,8 @@ ellipsis ...
 
 ---
 
-## Sintaxis metadatos
+Esto es un texto normal que contiene una nota [^nombreDeTuNota]. Puedes escribir tanto como necesites.
+
+Incluso crear varios párrafos, ya que la nota siempre irá al final del documento. En este caso, si haces click serás dirigido al final del artículo (pero puedes volver al punto de lectura fácilmente, ¡haz la prueba!)
+
+[^nombreDeTuNota]: Aquí irá el texto de tu nota.
