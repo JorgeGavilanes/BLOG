@@ -1,5 +1,11 @@
+Title:    Prueba para blog  
+Author:   Jorge Gavilanes  
+Date:     14 de febrero del 2021  
+Comment:  Este comentario aparecerá en el metadata  
+CSS:      https://guppydigital.com/css/estilos.css
+
 # TITULO 1
-## TITULO 2
+## TITULO 2 {#id}
 ### TITULO 3
 #### TITULO 4
 ##### TITULO 5
@@ -77,6 +83,8 @@ FORMA DE AGREGAR CÓDIGO
 
     El texto preformateado se lo agrega escribiendo cuando líneas anteriores, en html sería la etiqueta <pre>.
 
+[ID](#id)
+
 ## Salto de línea
 ***
 ---
@@ -150,3 +158,41 @@ Sirven para ver el enlace como tal, se los agrega con el <>.
 
 <https://guppydigital.com>
 
+<!-- Navigational markup, not in MMD -->
+<ul class="nav">
+<li class="nav-active"><a href="./">Intro</a></li>
+<li><a href="features/">Features</a></li>
+<li><a href="download/">Download</a></li>
+<li><a href="install/">Install</a></li>
+<li><a href="use/">Use</a></li>
+<li><a href="help/">Help</a></li>
+<li><a href="ports/">Ports</a></li>
+</ul>
+
+---
+
+## Sintaxis texto
+
+This text is **bold**.  
+This text is also __bold__.  
+This text is *italicized*.  
+This itext is also _italicized_.  
+`This is some code.`  
+	This is a longer
+	section of code
+	on multiple lines.  
+m^2  
+x^2,y^  
+x~z  
+C~6~H~12~O~6~  
+Escaped characters -- \&  
+"smart quotes"  
+'smart quotes'  
+apostrophe's  
+en -- dash  
+em --- dash  
+ellipsis ...
+
+---
+
+## Sintaxis metadatos
