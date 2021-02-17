@@ -1,0 +1,148 @@
+@import 'https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap';
+html{
+    scroll-behavior:smooth
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    height: 88.52px;
+}
+a,h1,.Principal{
+    font-family:josefin sans,sans-serif;
+}
+.Principal{
+    margin: 0;
+    font-family:josefin sans,sans-serif;
+}
+.Principal1{
+    padding-bottom: 0;
+}
+.subtitle-gc{
+    margin: 0 auto;
+}
+.align-gc{
+    text-align: center;
+}
+.margina-gc{
+    margin: auto;
+    text-align: justify;
+}
+.verde-gc, .enlaces{
+    color: #80bd01;
+    transition: all 300ms ease;
+    font-family:josefin sans,sans-serif;
+}
+.celeste-gc, .enlaces:hover{
+    color: #61dafb;
+    font-family:josefin sans,sans-serif;
+}
+.azul-gc{
+    color: #1290c3;
+    font-family:josefin sans,sans-serif;
+}
+.amarillo-gc,.amarillo-gc:hover{
+    color: #f1c40f;
+    font-family:josefin sans,sans-serif;
+}
+.naranja-gc{
+    color: #cc6c1d;
+    font-family:josefin sans,sans-serif;
+}
+.bg-top{
+    background-position: center;
+    background-attachment: fixed;
+    transition: all 300ms ease;
+    font-family:josefin sans,sans-serif;
+}
+.imgF{
+    width: 150px;
+    font-family:josefin sans,sans-serif;
+}
+.cuerpo-gc{
+    background-color: #1b2631;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 0;
+    background-position: center center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    font-family:josefin sans,sans-serif;
+}
+.enlace-gc{
+    padding: 10px 30px;
+    border: solid 1px #25b541;
+    text-decoration: none;
+    color: #fff;
+    transition: all 300ms ease;
+    background-color: transparent;
+    border-radius: 0;
+    font-size: 16px;
+    font-family:josefin sans,sans-serif;
+}
+.tags-gc{
+    color: #1290c3;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.tags-gc:hover{
+    background-color: #1290c3;
+    color: #fff;
+    border-color: #1290c3;
+}
+.enlace-gc:hover{
+    background-color: #1290c3;
+    border-color: #1290c3;
+    transition: all 300ms ease;
+    font-family:josefin sans,sans-serif;
+}
+.line-gc{
+    border-bottom-color: #1290c3;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    font-family:josefin sans,sans-serif;
+}
+.cajaBlog-gc{
+    align-items: center;
+    font-family:josefin sans,sans-serif;
+}
+.bg-white,.bg-near-white{
+    background-color: #17202a;
+    font-family:josefin sans,sans-serif;
+}
+hr{
+    height: 1px;
+   border: 0;
+   color: #f1c40f;
+   background-color: #f1c40f;
+}
+@media screen and (max-width: 960px){
+    .Principal{
+        text-align: center;
+        margin: 15% auto;
+    }
+    .imagen-gc{
+        display: none;
+    }
+    .textoBlog-gc{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .subtitle-gc{
+        margin: auto;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 735px){
+    .cajaBlog-gc{
+        display: block;
+    }
+    .imagen-gc{
+        display: block;
+        margin: auto;
+        width: 100%;
+        margin-bottom: 16px;
+    }
+}
