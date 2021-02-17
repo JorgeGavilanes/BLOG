@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on BLOG</title>
+    <link>https://blog.getcode.ml/blog/</link>
+    <description>Recent content in Blogs on BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ES</language>
+    <lastBuildDate>Tue, 16 Feb 2021 09:37:20 -0500</lastBuildDate><atom:link href="https://blog.getcode.ml/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bienvenidos</title>
+      <link>https://blog.getcode.ml/blog/bienvenidos/</link>
+      <pubDate>Tue, 16 Feb 2021 09:37:20 -0500</pubDate>
+      
+      <guid>https://blog.getcode.ml/blog/bienvenidos/</guid>
+      <description>Hola :) mi nombre es Jorge Gavilanes. Soy desarrollador web front-end y este año ha sido de mucho aprendizaje, mi ruta de desarrollador web ha sido muy variada y por ende he aprendido muchas tecnologías, en este blog trataré de mostrar herramientas, técnicas y estrategias claves que me ayudaron a introducirme a este fantástico mundo de la programación.
+ Jorge Gavilanes
+getCode_</description>
+    </item>
+    
+  </channel>
+</rss>
