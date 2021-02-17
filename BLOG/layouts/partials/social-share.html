@@ -1,0 +1,31 @@
+{{ $title := .Title }}
+{{ $url := printf "%s" .Permalink | absLangURL }}
+{{ $icon_size := "32px" }}
+
+{{ if not .Params.disable_share }}
+  <div id="sharing" class="mt3">
+
+    {{ $facebook_href := printf "https://www.facebook.com/sharer.php?u=%s" $url }}
+    <a href="{{ $facebook_href }}" class="facebook no-underline" aria-label="share on Facebook" target="_blank">
+      {{ partialCached "svg/facebook.svg" (dict "size" $icon_size) $icon_size }}
+    </a>
+
+    {{ $twitter_href := printf "https://twitter.com/share?url=%s&text=%s" $url $title }}
+    {{ with .Site.Social.twitter }}
+      {{ $twitter_href = printf "%s&via=%s" $twitter_href . }}
+    {{ end }}
+    <a href="{{ $twitter_href }}" class="twitter no-underline" aria-label="share on Twitter" target="_blank">
+      {{ partialCached "svg/twitter.svg" (dict "size" $icon_size) $icon_size }}
+    </a>
+
+    {{ $linkedin_href := printf "https://www.linkedin.com/shareArticle?mini=true&url=%s&title=%s" $url $title }}
+    <a href="{{ $linkedin_href }}" class="linkedin no-underline" aria-label="share on LinkedIn" target="_blank">
+      {{ partialCached "svg/linkedin.svg" (dict "size" $icon_size) $icon_size }}
+    </a>
+
+    {{ $whatsapp_href := printf "https://www.whatsapp.com/send?text=Hola,%20nuevo%20post%20de%20getCode_:%20%s" $url }}
+    <a href="{{ $whatsapp_href }}" class="whatsapp no-underline" aria-label="share on Whatsapp" target="_blank">
+      {{ partialCached "svg/whatsapp.svg" (dict "size" $icon_size) $icon_size }}
+    </a>
+  </div>
+{{ end }}
